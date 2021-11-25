@@ -26,12 +26,14 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   font-weight: 400;
   font-size: 10px;
+  color: hsl(227, 10%, 46%);
 }
 
 .black-text {
   font-family: "Kumbh Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
+  color: hsl(229, 23%, 23%);
 }
 
 #age {
@@ -43,14 +45,6 @@ body {
 }
 
 /* card */
-
-.black-text {
-  color: hsl(229, 23%, 23%);
-}
-
-.grey-text {
-  color: hsl(227, 10%, 46%);
-}
 
 #profile-card {
   width: 350px;
