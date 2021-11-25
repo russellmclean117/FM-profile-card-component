@@ -1,7 +1,11 @@
 /*
   FIXME: not sure how to include both background images
-  TODO: typography, fonts and sizes
+  FIXME: name and age not centered
+  TODO: grey text line spacing
+  TODO: margins
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -13,20 +17,39 @@
 body {
   background-image: url("../images/bg-pattern-top.svg");
   background-repeat: no-repeat;
+  background-color: hsl(185, 75%, 39%);
 }
 
-.card-footer-block {
-  display: inline-block;
+/* typography */
+
+.grey-text {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.black-text {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#age {
+  font-size: 18px;
+}
+
+#location {
+  font-size: 12px;
 }
 
 /* card */
 
 .black-text {
-  color: black;
+  color: hsl(229, 23%, 23%);
 }
 
 .grey-text {
-  color: grey;
+  color: hsl(227, 10%, 46%);
 }
 
 #profile-card {
@@ -86,6 +109,7 @@ body {
 /* card footer */
 
 .card-footer-block {
+  display: inline-block;
   width: 32.5%;
 }
 
@@ -101,7 +125,42 @@ body {
   bottom: 5px;
   font-size: 11px;
   text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%)
+
+## Typography
+
+### Body Copy
+
+- Font size (name and stats): 18px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700
+*/
