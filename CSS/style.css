@@ -1,6 +1,14 @@
+/*
+  FIXME: not sure how to include both background images
+  TODO: typography, fonts and sizes
+  TODO: horizontal line above footer
+  TODO: raised profile picture with white border
+  TODO: class grouping test based on color
+*/
+
 * {
   box-sizing: border-box;
-  border: solid black 1px;
+  /* border: solid black 1px; */
   margin: 0;
   padding: 0;
 }
