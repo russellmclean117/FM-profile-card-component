@@ -3,7 +3,6 @@
   TODO: typography, fonts and sizes
   TODO: horizontal line above footer
   TODO: raised profile picture with white border
-  TODO: class grouping test based on color
 */
 
 * {
@@ -23,6 +22,14 @@ body {
 }
 
 /* card */
+
+.black-text {
+  color: black;
+}
+
+.grey-text {
+  color: grey;
+}
 
 #profile-card {
   width: 350px;
