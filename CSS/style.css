@@ -1,8 +1,6 @@
 /*
   FIXME: not sure how to include both background images
   TODO: typography, fonts and sizes
-  TODO: horizontal line above footer
-  TODO: raised profile picture with white border
 */
 
 * {
@@ -54,16 +52,25 @@ body {
 
 /* card body */
 
+.card-body-container {
+  position: relative; /* allows me to position child elements with absolute */
+}
+
 #profile-picture {
   width: 96;
   height: 96;
-  display: block;
-  margin: auto;
+
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+
+  border: solid white 5px;
   border-radius: 50%;
 }
 
 #name-age-container {
-  margin: auto;
+  margin: 15% auto 0;
   width: 60%;
 }
 
