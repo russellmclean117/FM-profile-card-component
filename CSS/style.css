@@ -1,6 +1,5 @@
 /*
   FIXME: not sure how to include both background images
-  FIXME: name and age not centered
   TODO: grey text line spacing
   TODO: margins
 */
@@ -9,7 +8,7 @@
 
 * {
   box-sizing: border-box;
-  /* border: solid black 1px; */
+  border: solid black 1px;
   margin: 0;
   padding: 0;
 }
@@ -88,7 +87,7 @@ body {
 
 #name-age-container {
   margin: 15% auto 0;
-  width: 60%;
+  text-align: center; /* inline block child elements are centered because of this */
 }
 
 #name,
