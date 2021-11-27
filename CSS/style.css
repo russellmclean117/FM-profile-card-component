@@ -1,6 +1,5 @@
 /*
   FIXME: no space between name and age
-  TODO: grey text line spacing
   TODO: color of card divider <hr>
 */
 
@@ -43,7 +42,11 @@ body {
 }
 
 #location {
-  font-size: 12px;
+  font-size: 13px;
+}
+
+.card-footer-small-text {
+  letter-spacing: 0.1rem;
 }
 
 /* card */
