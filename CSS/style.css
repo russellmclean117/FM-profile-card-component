@@ -1,6 +1,6 @@
 /*
-  FIXME: no space between name and age
-  TODO: color of card divider <hr>
+  FIXME: style of card divider does not match design
+  FIXME: thin white lines around card header
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
@@ -19,6 +19,12 @@ body {
   background-position: -50% 45%, 150% -32%;
   background-repeat: no-repeat, no-repeat;
   background-color: hsl(185, 75%, 39%);
+}
+
+hr {
+  width: 99%;
+  margin: 0 auto;
+  background-color: lightgray;
 }
 
 /* typography */
