@@ -17,7 +17,7 @@ body {
   /* each background property is a liast for each background image */
   background-image: url("../images/bg-pattern-top.svg"),
     url("../images/bg-pattern-bottom.svg");
-  background-position: -50% 50%, 150% -50%;
+  background-position: -50% 45%, 150% -32%;
   background-repeat: no-repeat, no-repeat;
   background-color: hsl(185, 75%, 39%);
 }
