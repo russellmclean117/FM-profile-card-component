@@ -101,6 +101,10 @@ body {
   display: inline-block;
 }
 
+#name {
+  margin-right: 0.5rem;
+}
+
 #location {
   margin: 0.6rem auto 2rem;
   text-align: center;
