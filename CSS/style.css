@@ -1,8 +1,7 @@
 /*
-  FIXME: not sure how to include both background images
   FIXME: no space between name and age
   TODO: grey text line spacing
-  TODO: margins
+  TODO: color of card divider <hr>
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
@@ -15,8 +14,11 @@
 }
 
 body {
-  background-image: url("../images/bg-pattern-top.svg");
-  background-repeat: no-repeat;
+  /* each background property is a liast for each background image */
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-position: -50% 50%, 150% -50%;
+  background-repeat: no-repeat, no-repeat;
   background-color: hsl(185, 75%, 39%);
 }
 
