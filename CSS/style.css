@@ -12,13 +12,28 @@
   padding: 0;
 }
 
-body {
-  /* each background property is a liast for each background image */
-  background-image: url("../images/bg-pattern-top.svg"),
-    url("../images/bg-pattern-bottom.svg");
-  background-position: -50% 45%, 150% -32%;
-  background-repeat: no-repeat, no-repeat;
-  background-color: hsl(185, 75%, 39%);
+@media (orientation: portrait) {
+  /* mobile rules */
+  body {
+    /* each background property is a liast for each background image */
+    background-image: url("../images/bg-pattern-top.svg"),
+      url("../images/bg-pattern-bottom.svg");
+    background-position: left 175% top 50%, right 150% bottom 140%;
+    background-repeat: no-repeat, no-repeat;
+    background-color: hsl(185, 75%, 39%);
+  }
+}
+
+@media (orientation: landscape) {
+  /* desktop rules */
+  body {
+    /* each background property is a liast for each background image */
+    background-image: url("../images/bg-pattern-top.svg"),
+      url("../images/bg-pattern-bottom.svg");
+    background-position: -50% 45%, 150% -32%;
+    background-repeat: no-repeat, no-repeat;
+    background-color: hsl(185, 75%, 39%);
+  }
 }
 
 hr {
