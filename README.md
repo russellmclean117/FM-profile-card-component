@@ -38,8 +38,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/russellmclean117/FM-profile-card-component)
-- Live Site URL: [Add live site URL here](https://russellmclean117.github.io/FM-profile-card-component/)
+- Solution URL: [https://github.com/russellmclean117/FM-profile-card-component](https://github.com/russellmclean117/FM-profile-card-component)
+- Live Site URL: [https://russellmclean117.github.io/FM-profile-card-component/](https://russellmclean117.github.io/FM-profile-card-component/)
 
 ## My process
 
