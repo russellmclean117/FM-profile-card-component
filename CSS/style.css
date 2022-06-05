@@ -1,8 +1,3 @@
-/*
-  FIXME: style of card divider does not match design
-  FIXME: thin white lines around card header
-*/
-
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
 * {
@@ -88,6 +83,12 @@ hr {
 }
 
 /* card header */
+
+#card-header-container {
+  height: 140px;
+
+  background-color: hsl(183, 62%, 54%)
+}
 
 .card-top-corners {
   border-radius: 15px 15px 0px 0px;
